@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gameName">
+      <div class="avatarChessGame">
+        <img
+          src="https://render.fineartamerica.com/images/rendered/default/flat/puzzle/images/artworkimages/medium/3/1-chess-chess-player-chess-pieces-chess-game-steven-zimmer-transparent.png?&targetx=187&targety=0&imagewidth=626&imageheight=750&modelwidth=1000&modelheight=750&backgroundcolor=ffffff&orientation=0&producttype=puzzle-18-24&brightness=765&v=6"
+          alt="Game Avatar"
+        />
+      </div>
+      <div class="setting-control">
+        <div class="newGame">New</div>
+        <div class="undo">Undo</div>
+        <div class="redo">Redo</div>
+        <div class="reset">Reset</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="chessBox" id="chessBoard">
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chess_rlt60.png"
+            alt="br"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chess_nlt60.png"
+            alt="bn"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Chess_blt60.png"
+            alt="bb"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/4/49/Chess_qlt60.png"
+            alt="bq"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Chess_klt60.png"
+            alt="bk"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Chess_blt60.png"
+            alt="bb"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chess_nlt60.png"
+            alt="bn"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chess_rlt60.png"
+            alt="br"
+          />
+        </div>
+
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"
+            alt="bp"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"
+            alt="bp"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"
+            alt="bp"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"
+            alt="bp"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"
+            alt="bp"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"
+            alt="bp"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"
+            alt="bp"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png"
+            alt="bp"
+          />
+        </div>
+
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+        <div class="square light"></div>
+        <div class="square dark"></div>
+
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"
+            alt="wp"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"
+            alt="wp"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"
+            alt="wp"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"
+            alt="wp"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"
+            alt="wp"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"
+            alt="wp"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"
+            alt="wp"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Chess_pdt60.png"
+            alt="wp"
+          />
+        </div>
+
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Chess_rdt60.png"
+            alt="wr"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Chess_ndt60.png"
+            alt="wn"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/8/81/Chess_bdt60.png"
+            alt="wb"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/af/Chess_qdt60.png"
+            alt="wq"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Chess_kdt60.png"
+            alt="wk"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/8/81/Chess_bdt60.png"
+            alt="wb"
+          />
+        </div>
+        <div class="square light">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Chess_ndt60.png"
+            alt="wn"
+          />
+        </div>
+        <div class="square dark">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Chess_rdt60.png"
+            alt="wr"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="mainPlayer">
+      <div class="player">
+        <div class="player__Avatar">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpqHOdTY6ahi3MAzJUkgLH9gCNBngXGEhTAg&s"
+            alt="Player 1 Avatar"
+          />
+        </div>
+        <div class="player__Info">
+          <div class="player__Name">Player 1</div>
+          <div class="player__Timer">10:00</div>
+        </div>
+      </div>
+
+      <div class="timeGame">🕒 20:00</div>
+
+      <div class="player">
+        <div class="player__Avatar">
+          <img src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/89cfcbc0-6de8-4480-9499-75442922ab0c/d4c5af4d-67c1-42a6-87a5-c2380e39ace4.png" alt="Player 2 Avatar" />
+        </div>
+        <div class="player__Info">
+          <div class="player__Name">Player 1</div>
+          <div class="player__Timer">10:00</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
